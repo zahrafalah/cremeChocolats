@@ -1,0 +1,58 @@
+@import "~@dashtrack/web-utility/src/dt-style-helpers.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  // height: 100vh;
+  // background-color: red;
+  // background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg);
+  // background-size: 100% 100%;
+  // background-position: top center;
+  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  // object-fit: cover;
+}
+
+body {
+  // height: 100%;
+  // background-image: linear-gradient(hsl(10, 90, 66), transparent 70%);
+  // background-size: 100% 100%;
+  // mix-blend-mode: difference;
+  // font-size: 0.9rem;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+}
+
+p {
+}
+
+.site-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #efefef;
+
+  .loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
